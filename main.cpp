@@ -37,7 +37,7 @@ int main(int argc, char **argv){
     std::cerr << "err\n";
     return 1;
   }
-  constexpr size_t size{1'000};
+  constexpr size_t size{1'000'000'000};
   data_t values(size, 1);
   size_t thread_count = 0;
   thread_count = std::stoull(argv[1]);
